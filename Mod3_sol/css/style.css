@@ -1,0 +1,52 @@
+body {
+  background-color: #AA3939;
+}
+
+.navbar {
+  border-radius: 0;
+}
+
+a.navbar-brand {
+  font-size: 3rem;
+}
+
+section.food {
+  background-color: #ffaaaa;
+  padding: 1em 2em 1em 2em;
+  margin-top: 1em;
+  box-shadow: 0 8px 6px -6px black;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: bolder;
+  color: aliceblue;
+}
+
+section.food p {
+  line-height: 1.5em;
+  margin-top: 1.5em;
+}
+
+section.food h2 {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+li {
+  background-color: #D3D3D355;
+}
+
+li:hover {
+  background-color: #D3D3D3;
+}
+
+li:nth-child(1), li:nth-child(2) {
+  margin-bottom: 7.5px;
+}
+
+@media (min-width: 768px){
+  #bs-example-navbar-collapse-1 {
+    display: none !important;
+  }
+}
